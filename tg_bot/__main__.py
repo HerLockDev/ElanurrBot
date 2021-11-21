@@ -21,24 +21,24 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-**Merhaba {}, Benim adım Elanur!** ... 
+**Merhaba {}, Benim adım Herlock!** ... 
 
-👼🏻Ben bir grup yöneticisi botuyum ve [bu mükemmel kişi](tg://user?id=1097068650) tarafından yapıldım..
+👼🏻Ben bir grup yöneticisi botuyum ve [Herlock](tg://user?id=2124244679) tarafından yapıldım..
 
-📣Gelecekteki güncellemelerim vb - @ElanurBlog
+📣Gelecekteki güncellemelerim vb - @HerlockBots
 
-💻İşte benim [Kaynak kodum](https://heroku.com/deploy?template=https://github.com/Must4f/ElanurrBot),
-Bu linke girerek klonumu oluşturabilirsin! Fazla kurcalama!
+💻İşte benim [Sahibim](https://t.me/tht_herlock),
+Bu linke girerek Benim Sahibimi Göre Bilirsin Fazla Kurcalama!
 
 ℹ️Daha fazla komut ve nasıl kullanacağını öğrenmek için tıklayın: /help...
 
-[Bot Sahibi🛸](buttonurl://t.me/odunum)
+[Bot Sahibi🛸](buttonurl://t.me/tht_herlock)
 
 """
 
 HELP_STRINGS = """
 
-Merhaba! Benim adım *Elanur*.
+Merhaba! Benim adım *Herlock*.
 
 *Main* kullanabileceğin komutlar:
  - /start: Botu başlatır...
@@ -53,7 +53,7 @@ And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAşağıdaki komutların tümü / veya ! ile kullanılabilir...\n")
 
 DONATE_STRING = """Heya, bağış yapmak istediğini duyduğuma sevindim!
-Beni şu an olduğum yere götürmek [yaratıcımın](t.me/odunum) çok çalışmasını gerektirdi ve her bağış ona yardımcı oluyor \
+Beni şu an olduğum yere götürmek [Sahibimin](t.me/tht_herlock) çok çalışmasını gerektirdi ve her bağış ona yardımcı oluyor \
 beni daha da iyi yapması için onu motive et. Bir kahve ısmarla🥺."""
 
 IMPORTED = {}
